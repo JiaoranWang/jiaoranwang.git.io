@@ -475,6 +475,52 @@
             <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
           </ul>-->
 
+<body>
+
+    <div id="txt">
+
+    <textarea  id="text" value="" cols="35" rows="2"></textarea><br>
+
+       <button type="button" class="btn btn-outline-black" id="btn">Leave a comment >></button>
+
+       <div id="lis">
+
+         <ol id="text_li">
+
+         </ol>
+
+       </div>
+
+
+<script type="text/javascript">
+
+             var tet= document.getElementById("text");
+
+              var butt= document.getElementById("btn");
+
+              var tet_li= document.getElementById("text_li");
+
+ 
+
+      butt.onclick=function msg(){
+
+       var Li= document.createElement("li");
+
+        Li.innerHTML= tet.value;
+
+        tet_li.appendChild(Li);
+
+  }
+
+       
+	   </script>
+
+
+
+    </div>
+
+</body>
+
         </div>
         <div class="col-md-5 mb-5 pl-md-5">
           <div class="mb-5">
